@@ -1,0 +1,29 @@
+.home{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    margin-top: 10vh ;
+}
+
+.main-body{
+    max-width: 600px;
+    margin: 20px auto;
+}
+
+.form{
+    max-width: 250px;
+}
+
+span{
+    display: block;
+}
+
+.form input{
+    width: 100%;
+    line-height: 2em;
+    padding: 5px;
+}
+
+button{
+    margin-top: 5px;
+    display: block;
+}

@@ -1,0 +1,42 @@
+
+
+
+.navbar {
+    background:greenyellow;
+    padding: 20px;
+    color: #fff;
+    position: relative;
+  }
+  .navbar .brand{
+    color: indianred;
+    margin-right: auto;
+
+}
+/*
+
+
+ul>* {
+    padding: 10px;
+} */
+
+
+.brand {
+    margin-right: auto;
+    font-weight: bold;
+    letter-spacing: 1px;
+    font-size: 1.2em;
+  }
+  .navbar button, .navbar a {
+    margin-left: 16px;
+  }
+  .navbar a {
+    color: #333;
+    text-decoration: none;
+  }
+
+  .navbar ul {
+    display: flex;
+    margin: 0 auto;
+    max-width: 960px;
+    align-items: center;
+  }
